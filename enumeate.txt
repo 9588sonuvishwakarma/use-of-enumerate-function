@@ -1,0 +1,8 @@
+
+"""enumerate function"""
+
+l2 = ["sonu","vishawakarma","rohan","sohan"]
+
+for index, items in enumerate(l2):
+    if index%3 == 0:
+        print(items)
